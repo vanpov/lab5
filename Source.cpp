@@ -9,7 +9,7 @@ int main()
 	double xn = func(b);
 	int n = 0;
 	double h = 0;
-	double xi = 0;
+	double xi = 5;
 	double NormalResult = 2;
 	double HalfResult = 1;
 	while (abs(HalfResult - NormalResult)>0.0003)
